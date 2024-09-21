@@ -1,0 +1,14 @@
+{
+    "porcupine": {
+        "access_key": "",
+        "keywords": [],
+        "keyword_paths": ["ppn/hello-model_en_windows_v2_1_0.ppn"],
+        "sensitivities": [0.5]
+    },
+    "nlp_service": {
+        "paddlepaddle": {
+            "asr_url": "http://x.x.x.x:8090/paddlespeech/asr",
+            "tts_url": "http://x.x.x.x:8090/paddlespeech/tts"
+        }
+    }
+}
